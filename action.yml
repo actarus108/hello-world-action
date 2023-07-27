@@ -16,6 +16,8 @@ runs:
       shell: bash
     - run: echo How are you ${{ inputs.who-to-greet }} ?
       shell: bash
+    - run: echo How are your sister ?
+      shell: bash
     - id: random-number-generator
       run: echo "random-number=$(echo $RANDOM)" >> $GITHUB_OUTPUT
       shell: bash
